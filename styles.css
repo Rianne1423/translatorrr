@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Remove default margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Make the navbar stretch across the top */
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white !important; /* Set navbar background to white */
+    border-bottom: 1px solid #ddd; /* Optional: Add a subtle bottom border */
+}
+
+/* Style the navbar brand text to remain visible */
+.navbar a.navbar-brand {
+    color: black !important; /* Ensure text remains visible */
+    font-weight: bold;
+}
+
+body {
+    background-image: url('10725.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+/* Light gray color for language textboxes */
+.light-gray {
+    background-color: #d3d3d3 !important;
+}
+
+/* Search bar customization */
+.search-bar {
+    background-color: #f8f9fa; /* Light grayish background */
+    border: 1px solid #ced4da;
+    color: #333;
+}
+
+/* Ensure search bar text is visible */
+.search-bar::placeholder {
+    color: #6c757d;
+}
+
+/* Make the language names bold */
+.card-header {
+    font-weight: bold;
+}
+
+/* Make the Back button text bold */
+#backButton {
+    font-weight: bold;
+}
